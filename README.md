@@ -18,6 +18,7 @@
         return root1, root2
         
 `get_roots(1,2,-3)`
+Вернет нам root1 = -3  и root2 = 1 
 
         
         
