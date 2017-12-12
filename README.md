@@ -5,8 +5,9 @@
 # Как использовать
 
 Скрипт состоит из одной функции get_roots которая принимает на вход три аргумента.Пример использования функции get_roots:
-def get_roots(a, b, c):
-    discriminant = b ** 2 - 4 * a * c
+
+    def get_roots(a, b, c):
+	discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
         return  None, None
     root1 = (-b - sqrt(discriminant)) / (2 * a)
@@ -16,8 +17,8 @@ def get_roots(a, b, c):
     else:
         return root1, root2
         
-get_roots(1,2,-3)
-Вернет нам два корня
+`get_roots(1,2,-3)`
+
         
         
 
